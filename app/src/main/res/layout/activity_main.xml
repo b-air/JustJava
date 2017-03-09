@@ -1,0 +1,27 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:text="QUANTITY"
+        android:id="@+id/quantity_text_view"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingBottom="16dp"/>
+
+    <TextView
+        android:text="0"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        style="@style/Noir"/>
+
+    <Button
+        android:text="ORDER"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+
+
+</LinearLayout>
